@@ -3,7 +3,7 @@ set -euo pipefail
 
 TAG=${1:-}
 ROOT=$PWD
-VERSIONS="0.9.3 0.9.4 0.9.5 0.10.0"
+VERSIONS="0.9.3 0.9.4 0.9.5 0.10.0 0.12.1"
 
 mkdir -p releases
 git clone https://github.com/google/jsonnet
